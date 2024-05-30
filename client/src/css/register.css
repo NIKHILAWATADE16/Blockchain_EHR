@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  overflow: hidden;
+}
+
+.container{
+  display: flex;
+}
+.left-section
+{
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section
+{
+  width: 70%;
+  height: 100vh;
+  background-color: #000000;
+}
+.right-header{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-weight: bolder;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.eth-logo
+{
+  width: 100px;
+}
+.doctor-img
+{
+  width: 300px;
+}
+
+.form-container
+{
+  background-color: #181818;
+  margin: 20px 40px;
+}
+.tabs{
+  display:  flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.doctor-tab,.patient-tab
+{
+  width: 50%;
+  text-align: center;
+  padding: 15px;
+}
+
+.doctor-tab:hover,.patient-tab:hover
+{
+ cursor: pointer;
+}
+.active
+{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.doctor-form,.patient-form{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+}
+.input-field
+{
+  width: 100%;
+  margin: 10px 0px;
+}
+.doctor-form input, .patient-form input, .patient-form select
+{
+  margin-top: 4px;
+  width: 100%;
+  padding: 6px 6px 6px 6px;
+  border: none;
+  border-radius: 2px;
+  background-color: #2C2C2C;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.submit-button{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  font-family: "Inter";
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  padding: 10px 40px;
+  margin-top: 10px;
+}
+
+.submit-button:hover
+{
+  cursor: pointer;
+}
+.input-col-2
+{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+select option{
+  padding: 10px 10px;
+}
+.form-buttons{
+  display:  flex;
+  gap: 20px;
+}

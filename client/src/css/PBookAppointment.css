@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.pa-left-section
+{
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 130px;
+  padding-top: 100px;
+}
+.pa-right-section
+{
+  width: 70%;
+  height: 100vh;
+  background-color: #0C0C0C;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+    padding: 20px 0px;
+    gap: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.a-book-form
+{
+  background-color: #181818;
+  width: 500px;
+  padding: 10px 10px;
+  border-radius: 2px;  
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top: 40%;
+  left: 35%;
+}
+.a-input-field
+{
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.a-input-field input, .a-input-field select{
+  font-family: "Inter";
+  background-color: #2C2C2C;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+
+.a-input-flex
+{
+  display: flex;  
+  justify-content: space-between;
+}
+.a-input-flex .a-input-field
+{
+  width: 45%;
+}
+.app-b-a
+{
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter";
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+.a-book-form svg{
+  margin: 5px;
+  width: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+.a-book-form svg:hover{
+  cursor: pointer;
+}
+.book-app-doc-name
+{
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+}

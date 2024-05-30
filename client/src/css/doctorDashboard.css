@@ -1,0 +1,42 @@
+.single-detail
+{
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.single-detail-profile
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.single-files{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single-app-details ul 
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.single-detail svg{
+    width: 30px;
+}
+.single-detail svg:hover{
+    cursor: pointer;
+}
